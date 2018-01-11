@@ -1,5 +1,5 @@
 {
-    "name": "ywh/doctrine-encryption-extension-bundle",
+    "name": "ywh/doctrine-encryption-bundle",
     "type": "symfony-bundle",
     "description": "Integration of the ywh/doctrine-encryption-extension with Symfony2",
     "keywords": [
