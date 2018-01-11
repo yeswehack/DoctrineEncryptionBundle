@@ -2,7 +2,6 @@
 
 namespace YWH\DoctrineEncryptionBundle\DependencyInjection;
 
-use Symfony\Component\Config\Loader\LoaderInterface;
 use Symfony\Component\HttpKernel\DependencyInjection\Extension;
 use Symfony\Component\Config\Definition\Processor;
 use Symfony\Component\DependencyInjection\Loader\XmlFileLoader;
