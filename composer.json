@@ -1,0 +1,45 @@
+{
+    "name": "ywh/doctrine-encryption-extension-bundle",
+    "type": "symfony-bundle",
+    "description": "Integration of the ywh/doctrine-encryption-extension with Symfony2",
+    "keywords": [
+        "symfony",
+        "behaviors",
+        "doctrine2",
+        "extension",
+        "ywh",
+        "yeswehack",
+        "encryption",
+        "defuse"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Romain Honel",
+            "email": "r.honel@yeswehack.com"
+        },
+        {
+            "name": "Maxime Bouchard",
+            "email": "m.bouchard@yeswehack.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "symfony/framework-bundle": "~2.7|~3.2|~4.0",
+        "ywh/doctrine-encryption-extension": "dev-develop"
+    },
+    "require-dev": {
+        "symfony/phpunit-bridge": "^4.0",
+        "symfony/security-bundle": "^2.7 || ^3.2 || ^4.0"
+    },
+    "suggest": {
+        "doctrine/doctrine-bundle": "to use the ORM extensions"
+    },
+    "autoload": {
+        "psr-4": { "YWH\\DoctrineEncryptionBundle\\": "" }
+    },
+    "repositories": [{
+        "type": "vcs",
+        "url": "/home/picoss/Projects/YesWeHack/doctrine-encryption-extension"
+    }]
+}
