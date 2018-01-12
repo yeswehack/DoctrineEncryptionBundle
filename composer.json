@@ -37,9 +37,5 @@
     },
     "autoload": {
         "psr-4": { "YWH\\DoctrineEncryptionBundle\\": "" }
-    },
-    "repositories": [{
-        "type": "vcs",
-        "url": "/home/picoss/Projects/YesWeHack/doctrine-encryption-extension"
-    }]
+    }
 }
